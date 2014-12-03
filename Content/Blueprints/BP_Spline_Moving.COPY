@@ -1,0 +1,2070 @@
+Begin Object Class=Blueprint Name="BP_Spline_Moving"
+   Begin Object Class=EdGraph Name="Sway__FinishedFunc"
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_1657"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17418"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17417"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17416"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17415"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_273"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17414"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="Sway__UpdateFunc"
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_1656"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17413"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17412"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17411"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17410"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_272"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17409"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="ReceiveBeginPlay"
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_1655"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17408"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17407"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17406"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17405"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_271"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17404"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=EdGraph Name="UserConstructionScript"
+      Begin Object Class=EdGraphNode_Comment Name="EdGraphNode_Comment_1352"
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4225"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16957"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16956"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4223"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16951"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16950"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4221"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16963"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16962"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4219"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16981"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16980"
+         End Object
+      End Object
+      Begin Object Class=K2Node_MakeArray Name="K2Node_MakeArray_254"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17298"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17297"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17296"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17295"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17294"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableSet Name="K2Node_VariableSet_1753"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16971"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16970"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16969"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16968"
+         End Object
+      End Object
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_347"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16922"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EventGraph"
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5993"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17285"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17284"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17283"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17282"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_5869"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17265"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17264"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_485128"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17277"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17276"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_6515"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17271"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17270"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_485129"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17226"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17225"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_6569"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17220"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17219"
+         End Object
+      End Object
+      Begin Object Class=EdGraphNode_Comment Name="EdGraphNode_Comment_1632"
+      End Object
+      Begin Object Class=EdGraphNode_Comment Name="EdGraphNode_Comment_1628"
+      End Object
+      Begin Object Class=EdGraphNode_Comment Name="EdGraphNode_Comment_1618"
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_386522"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17253"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17252"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17251"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17250"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17249"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_376615"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17244"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17243"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_376553"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17234"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17233"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17232"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17231"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_272174"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17101"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17100"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17099"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17098"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17097"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_260873"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17092"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17091"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_260746"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17212"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17211"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17210"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_260666"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17197"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17196"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17195"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17194"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17193"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17192"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_227800"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17178"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17177"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17176"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17167"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17166"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17165"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17164"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17163"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CommutativeAssociativeBinaryOperator Name="K2Node_CommutativeAssociativeBinaryOperator_4671"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17154"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17153"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17152"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17151"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_219021"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17142"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17141"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17140"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17139"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_218973"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17132"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17131"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17130"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_218607"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17121"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17120"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17119"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17118"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_215816"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17113"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17112"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4240"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17047"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17046"
+         End Object
+      End Object
+      Begin Object Class=K2Node_MacroInstance Name="K2Node_MacroInstance_2810"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17366"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17365"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17364"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17363"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17362"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17361"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_4235"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17086"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17085"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_171792"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17076"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17075"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17074"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17073"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_161322"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17062"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17061"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17060"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17059"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17058"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_3898"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17053"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17052"
+         End Object
+      End Object
+      Begin Object Class=K2Node_Timeline Name="K2Node_Timeline_254"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16899"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16898"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16897"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16896"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16895"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16894"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16893"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16892"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16891"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16890"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16889"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_161817"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17041"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17040"
+         End Object
+      End Object
+      Begin Object Class=K2Node_MakeArray Name="K2Node_MakeArray_129"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17312"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17311"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17310"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17309"
+         End Object
+      End Object
+      Begin Object Class=K2Node_CallFunction Name="K2Node_CallFunction_150500"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17007"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17006"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17005"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17004"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableGet Name="K2Node_VariableGet_3837"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16999"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16998"
+         End Object
+      End Object
+      Begin Object Class=K2Node_VariableSet Name="K2Node_VariableSet_1559"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16989"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16988"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16987"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16986"
+         End Object
+      End Object
+      Begin Object Class=K2Node_AddComponent Name="K2Node_AddComponent_4956"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17023"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17022"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17021"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17020"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17019"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17018"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17017"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_17016"
+         End Object
+      End Object
+      Begin Object Class=K2Node_Event Name="K2Node_Event_3369"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16884"
+         End Object
+         Begin Object Class=EdGraphPin Name="EdGraphPin_16883"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="Sway__FinishedFunc"
+      Begin Object Name="K2Node_CallFunction_1657"
+         Begin Object Name="EdGraphPin_17418"
+            PinName="EntryPoint"
+            PinToolTip="Entry Point\nInteger\n\nThe entry point to start code execution at."
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         Begin Object Name="EdGraphPin_17417"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nObject Reference"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=BlueprintGeneratedClass'"SKEL_BP_Spline_Moving_C"')
+         End Object
+         Begin Object Name="EdGraphPin_17416"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_17415"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:Sway__FinishedFunc.K2Node_FunctionEntry_273.EdGraphPin_17414"'
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Spline_Moving",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17415'
+         Pins(1)=EdGraphPin'EdGraphPin_17416'
+         Pins(2)=EdGraphPin'EdGraphPin_17417'
+         Pins(3)=EdGraphPin'EdGraphPin_17418'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=32E6FCB34B192928C220BB9E21E09354
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_273"
+         Begin Object Name="EdGraphPin_17414"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:Sway__FinishedFunc.K2Node_CallFunction_1657.EdGraphPin_17415"'
+         End Object
+         CustomGeneratedFunctionName="Sway__FinishedFunc"
+         SignatureClass=Class'/Script/Engine.TimelineComponent'
+         SignatureName="OnTimelineEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_17414'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=5F574B3D4F6D377CE4440C8280F6EE03
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_273'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_1657'
+      GraphGuid=5A28F9B84EC7962FE42D9F87343A1BE5
+   End Object
+   Begin Object Name="Sway__UpdateFunc"
+      Begin Object Name="K2Node_CallFunction_1656"
+         Begin Object Name="EdGraphPin_17413"
+            PinName="EntryPoint"
+            PinToolTip="Entry Point\nInteger\n\nThe entry point to start code execution at."
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         Begin Object Name="EdGraphPin_17412"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nObject Reference"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=BlueprintGeneratedClass'"SKEL_BP_Spline_Moving_C"')
+         End Object
+         Begin Object Name="EdGraphPin_17411"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_17410"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:Sway__UpdateFunc.K2Node_FunctionEntry_272.EdGraphPin_17409"'
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Spline_Moving",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17410'
+         Pins(1)=EdGraphPin'EdGraphPin_17411'
+         Pins(2)=EdGraphPin'EdGraphPin_17412'
+         Pins(3)=EdGraphPin'EdGraphPin_17413'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=6A38EB924454360D1585A78D2ACA54EB
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_272"
+         Begin Object Name="EdGraphPin_17409"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:Sway__UpdateFunc.K2Node_CallFunction_1656.EdGraphPin_17410"'
+         End Object
+         CustomGeneratedFunctionName="Sway__UpdateFunc"
+         SignatureClass=Class'/Script/Engine.TimelineComponent'
+         SignatureName="OnTimelineEvent__DelegateSignature"
+         Pins(0)=EdGraphPin'EdGraphPin_17409'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=929CDC6248021AD3D2FD2CBFFF60027D
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_272'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_1656'
+      GraphGuid=D345500D4C8959C01C31AB90A8A0F6C1
+   End Object
+   Begin Object Name="ReceiveBeginPlay"
+      Begin Object Name="K2Node_CallFunction_1655"
+         Begin Object Name="EdGraphPin_17408"
+            PinName="EntryPoint"
+            PinToolTip="Entry Point\nInteger\n\nThe entry point to start code execution at."
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+         End Object
+         Begin Object Name="EdGraphPin_17407"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nObject Reference"
+            PinType=(PinCategory="object",PinSubCategory="self",PinSubCategoryObject=BlueprintGeneratedClass'"SKEL_BP_Spline_Moving_C"')
+         End Object
+         Begin Object Name="EdGraphPin_17406"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_17405"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:ReceiveBeginPlay.K2Node_FunctionEntry_271.EdGraphPin_17404"'
+         End Object
+         FunctionReference=(MemberName="ExecuteUbergraph_BP_Spline_Moving",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17405'
+         Pins(1)=EdGraphPin'EdGraphPin_17406'
+         Pins(2)=EdGraphPin'EdGraphPin_17407'
+         Pins(3)=EdGraphPin'EdGraphPin_17408'
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=8E7324F649A7713DC21D2492119C8223
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_271"
+         Begin Object Name="EdGraphPin_17404"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:ReceiveBeginPlay.K2Node_CallFunction_1655.EdGraphPin_17405"'
+         End Object
+         CustomGeneratedFunctionName="ReceiveBeginPlay"
+         SignatureClass=Class'/Script/Engine.Actor'
+         SignatureName="ReceiveBeginPlay"
+         Pins(0)=EdGraphPin'EdGraphPin_17404'
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=C81226884EB16A23AA3D2BA613D179F6
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_271'
+      Nodes(1)=K2Node_CallFunction'K2Node_CallFunction_1655'
+      GraphGuid=4206F81345F58ED4FD3C0F9C62F3CFF3
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="UserConstructionScript"
+      Begin Object Name="EdGraphNode_Comment_1352"
+         NodePosX=208
+         NodeWidth=541
+         NodeHeight=294
+         NodeComment="Make an array for the lantern meshes"
+         NodeGuid=B9127C3E46FD735B700EDF9F15F16588
+      End Object
+      Begin Object Name="K2Node_VariableGet_4225"
+         Begin Object Name="EdGraphPin_16957"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16956"
+            PinName="Lantern4"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_MakeArray_254.EdGraphPin_17298"'
+         End Object
+         VariableReference=(MemberName="Lantern4",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16956'
+         Pins(1)=EdGraphPin'EdGraphPin_16957'
+         NodePosX=256
+         NodePosY=208
+         NodeGuid=434B07B2459A93091F966CB93EFF3BD4
+      End Object
+      Begin Object Name="K2Node_VariableGet_4223"
+         Begin Object Name="EdGraphPin_16951"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16950"
+            PinName="Lantern3"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_MakeArray_254.EdGraphPin_17297"'
+         End Object
+         VariableReference=(MemberName="Lantern3",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16950'
+         Pins(1)=EdGraphPin'EdGraphPin_16951'
+         NodePosX=256
+         NodePosY=176
+         NodeGuid=67E50AC7499A9E18050A44A60B155B75
+      End Object
+      Begin Object Name="K2Node_VariableGet_4221"
+         Begin Object Name="EdGraphPin_16963"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16962"
+            PinName="Lantern2"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_MakeArray_254.EdGraphPin_17296"'
+         End Object
+         VariableReference=(MemberName="Lantern2",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16962'
+         Pins(1)=EdGraphPin'EdGraphPin_16963'
+         NodePosX=256
+         NodePosY=144
+         NodeGuid=B6BB3E7A4C250605CEA6719B9451D8CC
+      End Object
+      Begin Object Name="K2Node_VariableGet_4219"
+         Begin Object Name="EdGraphPin_16981"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16980"
+            PinName="Lantern1"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_MakeArray_254.EdGraphPin_17295"'
+         End Object
+         VariableReference=(MemberName="Lantern1",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16980'
+         Pins(1)=EdGraphPin'EdGraphPin_16981'
+         NodePosX=256
+         NodePosY=112
+         NodeGuid=B3132B76400ED7D2779ECB88664B7650
+      End Object
+      Begin Object Name="K2Node_MakeArray_254"
+         Begin Object Name="EdGraphPin_17298"
+            PinName="[3]"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableGet_4225.EdGraphPin_16956"'
+         End Object
+         Begin Object Name="EdGraphPin_17297"
+            PinName="[2]"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableGet_4223.EdGraphPin_16950"'
+         End Object
+         Begin Object Name="EdGraphPin_17296"
+            PinName="[1]"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableGet_4221.EdGraphPin_16962"'
+         End Object
+         Begin Object Name="EdGraphPin_17295"
+            PinName="[0]"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableGet_4219.EdGraphPin_16980"'
+         End Object
+         Begin Object Name="EdGraphPin_17294"
+            PinName="Array"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableSet_1753.EdGraphPin_16970"'
+         End Object
+         NumInputs=4
+         Pins(0)=EdGraphPin'EdGraphPin_17294'
+         Pins(1)=EdGraphPin'EdGraphPin_17295'
+         Pins(2)=EdGraphPin'EdGraphPin_17296'
+         Pins(3)=EdGraphPin'EdGraphPin_17297'
+         Pins(4)=EdGraphPin'EdGraphPin_17298'
+         NodePosX=400
+         NodePosY=96
+         NodeGuid=72FC8B7A41053E932E15759A322D3521
+      End Object
+      Begin Object Name="K2Node_VariableSet_1753"
+         Begin Object Name="EdGraphPin_16971"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16970"
+            PinName="Lanterns"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_MakeArray_254.EdGraphPin_17294"'
+         End Object
+         Begin Object Name="EdGraphPin_16969"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16968"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_FunctionEntry_347.EdGraphPin_16922"'
+         End Object
+         VariableReference=(MemberName="Lanterns",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16968'
+         Pins(1)=EdGraphPin'EdGraphPin_16969'
+         Pins(2)=EdGraphPin'EdGraphPin_16970'
+         Pins(3)=EdGraphPin'EdGraphPin_16971'
+         NodePosX=560
+         NodePosY=48
+         NodeGuid=5CD6D20F4633614FCC608A914CB0DE8D
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_347"
+         Begin Object Name="EdGraphPin_16922"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:UserConstructionScript.K2Node_VariableSet_1753.EdGraphPin_16968"'
+         End Object
+         SignatureClass=Class'/Script/Engine.Actor'
+         SignatureName="UserConstructionScript"
+         Pins(0)=EdGraphPin'EdGraphPin_16922'
+         NodePosX=-32
+         NodePosY=32
+         NodeGuid=2E4E916B41572E16C532AE86EF9EDFA0
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_347'
+      Nodes(1)=K2Node_VariableSet'K2Node_VariableSet_1753'
+      Nodes(2)=K2Node_MakeArray'K2Node_MakeArray_254'
+      Nodes(3)=K2Node_VariableGet'K2Node_VariableGet_4219'
+      Nodes(4)=K2Node_VariableGet'K2Node_VariableGet_4221'
+      Nodes(5)=K2Node_VariableGet'K2Node_VariableGet_4223'
+      Nodes(6)=K2Node_VariableGet'K2Node_VariableGet_4225'
+      Nodes(7)=EdGraphNode_Comment'EdGraphNode_Comment_1352'
+      bAllowDeletion=False
+      GraphGuid=7ED624EE45AF8D115FE29888811F60F0
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_CallFunction_5993"
+         Begin Object Name="EdGraphPin_17285"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_161322.EdGraphPin_17062"'
+         End Object
+         Begin Object Name="EdGraphPin_17284"
+            PinName="Location"
+            PinToolTip="Location\nVector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_171792.EdGraphPin_17076"'
+         End Object
+         Begin Object Name="EdGraphPin_17283"
+            PinName="T"
+            PinToolTip="T\nTransform  (by ref)"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Transform',bIsReference=True,bIsConst=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_5869.EdGraphPin_17265"'
+            bDefaultValueIsIgnored=True
+         End Object
+         Begin Object Name="EdGraphPin_17282"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="TransformLocation")
+         Pins(0)=EdGraphPin'EdGraphPin_17282'
+         Pins(1)=EdGraphPin'EdGraphPin_17283'
+         Pins(2)=EdGraphPin'EdGraphPin_17284'
+         Pins(3)=EdGraphPin'EdGraphPin_17285'
+         NodePosX=1616
+         NodePosY=400
+         NodeGuid=55BCC4734D37DD085D6A448A6EBBAB2D
+      End Object
+      Begin Object Name="K2Node_CallFunction_5869"
+         Begin Object Name="EdGraphPin_17265"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nTransform \n\nThe transform that transforms from actor space to world space."
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Transform')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_5993.EdGraphPin_17283"'
+         End Object
+         Begin Object Name="EdGraphPin_17264"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nActor Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.Actor')
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberName="GetTransform",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17264'
+         Pins(1)=EdGraphPin'EdGraphPin_17265'
+         NodePosX=1328
+         NodePosY=448
+         NodeGuid=53BA336A4755E7D5FC648CAFC6DFFF49
+      End Object
+      Begin Object Name="K2Node_CallFunction_485128"
+         Begin Object Name="EdGraphPin_17277"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MakeArray_129.EdGraphPin_17312"'
+         End Object
+         Begin Object Name="EdGraphPin_17276"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nScene Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SceneComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_6515.EdGraphPin_17270"'
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SceneComponent',MemberName="K2_GetComponentLocation")
+         Pins(0)=EdGraphPin'EdGraphPin_17276'
+         Pins(1)=EdGraphPin'EdGraphPin_17277'
+         NodePosX=176
+         NodePosY=480
+         NodeGuid=34A93B374C7CA49BC2EBAE951E066477
+      End Object
+      Begin Object Name="K2Node_VariableGet_6515"
+         Begin Object Name="EdGraphPin_17271"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17270"
+            PinName="End point"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_485128.EdGraphPin_17276"'
+         End Object
+         VariableReference=(MemberName="End point",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17270'
+         Pins(1)=EdGraphPin'EdGraphPin_17271'
+         NodePosX=32
+         NodePosY=512
+         NodeGuid=C8B7A73E42AB111465796682C0E7DF6A
+      End Object
+      Begin Object Name="K2Node_CallFunction_485129"
+         Begin Object Name="EdGraphPin_17226"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MakeArray_129.EdGraphPin_17310"'
+         End Object
+         Begin Object Name="EdGraphPin_17225"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nScene Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SceneComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_6569.EdGraphPin_17219"'
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SceneComponent',MemberName="K2_GetComponentLocation")
+         Pins(0)=EdGraphPin'EdGraphPin_17225'
+         Pins(1)=EdGraphPin'EdGraphPin_17226'
+         NodePosX=176
+         NodePosY=352
+         NodeGuid=47CFC0784AFB84A97BC0B7A3713F63B8
+      End Object
+      Begin Object Name="K2Node_VariableGet_6569"
+         Begin Object Name="EdGraphPin_17220"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17219"
+            PinName="Start point"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_485129.EdGraphPin_17225"'
+         End Object
+         VariableReference=(MemberName="Start point",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17219'
+         Pins(1)=EdGraphPin'EdGraphPin_17220'
+         NodePosX=32
+         NodePosY=384
+         NodeGuid=9CA27B9F4163DCAC600DDE91E87DE8FF
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1632"
+         NodePosX=1123
+         NodePosY=88
+         NodeWidth=960
+         NodeHeight=480
+         NodeComment="Swaying animation for center spline point"
+         NodeGuid=58F41B2F4BC7F47732ACD79BAE57FC93
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1628"
+         NodePosX=-126
+         NodePosY=83
+         NodeWidth=1168
+         NodeHeight=512
+         NodeComment="Create spline and set up points"
+         NodeGuid=FB272DF7453362A34FD4FCA115C8AA38
+      End Object
+      Begin Object Name="EdGraphNode_Comment_1618"
+         NodePosX=2163
+         NodePosY=108
+         NodeWidth=1440
+         NodeHeight=672
+         NodeComment="Update the position and rotation of each mesh in the array"
+         NodeGuid=7D12B3374BCD88C49424B2AEB172A29F
+      End Object
+      Begin Object Name="K2Node_CallFunction_386522"
+         Begin Object Name="EdGraphPin_17253"
+            PinName="Z"
+            PinToolTip="Z\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17252"
+            PinName="Y"
+            PinToolTip="Y\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_272174.EdGraphPin_17100"'
+         End Object
+         Begin Object Name="EdGraphPin_17251"
+            PinName="X"
+            PinToolTip="X\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17250"
+            PinName="InVec"
+            PinToolTip="In Vec\nVector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_376553.EdGraphPin_17234"'
+         End Object
+         Begin Object Name="EdGraphPin_17249"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="BreakVector")
+         Pins(0)=EdGraphPin'EdGraphPin_17249'
+         Pins(1)=EdGraphPin'EdGraphPin_17250'
+         Pins(2)=EdGraphPin'EdGraphPin_17251'
+         Pins(3)=EdGraphPin'EdGraphPin_17252'
+         Pins(4)=EdGraphPin'EdGraphPin_17253'
+         NodePosX=2592
+         NodePosY=544
+         NodeComment="Use Y movement for swing rotation"
+         NodeGuid=226DABE44AA6FE34E77FB5B7C213F538
+      End Object
+      Begin Object Name="K2Node_CallFunction_376615"
+         Begin Object Name="EdGraphPin_17244"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_376553.EdGraphPin_17233"'
+         End Object
+         Begin Object Name="EdGraphPin_17243"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nActor Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.Actor')
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberName="K2_GetActorLocation",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17243'
+         Pins(1)=EdGraphPin'EdGraphPin_17244'
+         NodePosX=2224
+         NodePosY=592
+         NodeGuid=9870D9EC4F14F063312D12B23624FDEC
+      End Object
+      Begin Object Name="K2Node_CallFunction_376553"
+         Begin Object Name="EdGraphPin_17234"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_386522.EdGraphPin_17250"'
+         End Object
+         Begin Object Name="EdGraphPin_17233"
+            PinName="B"
+            PinToolTip="B\nVector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_376615.EdGraphPin_17244"'
+         End Object
+         Begin Object Name="EdGraphPin_17232"
+            PinName="A"
+            PinToolTip="A\nVector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218973.EdGraphPin_17132"'
+         End Object
+         Begin Object Name="EdGraphPin_17231"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="Subtract_VectorVector")
+         Pins(0)=EdGraphPin'EdGraphPin_17231'
+         Pins(1)=EdGraphPin'EdGraphPin_17232'
+         Pins(2)=EdGraphPin'EdGraphPin_17233'
+         Pins(3)=EdGraphPin'EdGraphPin_17234'
+         NodePosX=2480
+         NodePosY=560
+         NodeComment="Make local"
+         NodeGuid=53D8C619490CE1C9B8149DA5B9A9D550
+      End Object
+      Begin Object Name="K2Node_CallFunction_272174"
+         Begin Object Name="EdGraphPin_17101"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nRotator "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260666.EdGraphPin_17194"'
+         End Object
+         Begin Object Name="EdGraphPin_17100"
+            PinName="Roll"
+            PinToolTip="Roll\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_386522.EdGraphPin_17252"'
+         End Object
+         Begin Object Name="EdGraphPin_17099"
+            PinName="Yaw"
+            PinToolTip="Yaw\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="180"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17098"
+            PinName="Pitch"
+            PinToolTip="Pitch\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17097"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="MakeRot")
+         Pins(0)=EdGraphPin'EdGraphPin_17097'
+         Pins(1)=EdGraphPin'EdGraphPin_17098'
+         Pins(2)=EdGraphPin'EdGraphPin_17099'
+         Pins(3)=EdGraphPin'EdGraphPin_17100'
+         Pins(4)=EdGraphPin'EdGraphPin_17101'
+         NodePosX=2752
+         NodePosY=544
+         NodeGuid=533C1756446446A82CA716ACF868FB80
+      End Object
+      Begin Object Name="K2Node_CallFunction_260873"
+         Begin Object Name="EdGraphPin_17092"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nRotator "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260666.EdGraphPin_17193"'
+         End Object
+         Begin Object Name="EdGraphPin_17091"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nScene Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SceneComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17364"'
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SceneComponent',MemberName="K2_GetComponentRotation")
+         Pins(0)=EdGraphPin'EdGraphPin_17091'
+         Pins(1)=EdGraphPin'EdGraphPin_17092'
+         NodePosX=2816
+         NodePosY=464
+         NodeGuid=419F52A84E99FD4D6CBDABB688A0E644
+      End Object
+      Begin Object Name="K2Node_CallFunction_260746"
+         Begin Object Name="EdGraphPin_17212"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260666.EdGraphPin_17195"'
+         End Object
+         Begin Object Name="EdGraphPin_17211"
+            PinName="WorldContextObject"
+            PinToolTip="World Context Object\nObject Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object')
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17210"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nGameplay Statics Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.GameplayStatics')
+            DefaultObject=Default__GameplayStatics
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.GameplayStatics',MemberName="GetWorldDeltaSeconds")
+         Pins(0)=EdGraphPin'EdGraphPin_17210'
+         Pins(1)=EdGraphPin'EdGraphPin_17211'
+         Pins(2)=EdGraphPin'EdGraphPin_17212'
+         NodePosX=2816
+         NodePosY=672
+         NodeGuid=EFF11E78425713B5ADE1EC8AF42D0B44
+      End Object
+      Begin Object Name="K2Node_CallFunction_260666"
+         Begin Object Name="EdGraphPin_17197"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nRotator \n\nNew interpolated position"
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_227800.EdGraphPin_17177"'
+         End Object
+         Begin Object Name="EdGraphPin_17196"
+            PinName="InterpSpeed"
+            PinToolTip="Interp Speed\nFloat\n\nInterpolation speed"
+            PinType=(PinCategory="float")
+            DefaultValue="2"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17195"
+            PinName="DeltaTime"
+            PinToolTip="Delta Time\nFloat\n\nTime since last tick"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260746.EdGraphPin_17212"'
+         End Object
+         Begin Object Name="EdGraphPin_17194"
+            PinName="Target"
+            PinToolTip="Target\nRotator \n\nTarget position"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_272174.EdGraphPin_17101"'
+         End Object
+         Begin Object Name="EdGraphPin_17193"
+            PinName="Current"
+            PinToolTip="Current\nRotator \n\nActual position"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260873.EdGraphPin_17092"'
+         End Object
+         Begin Object Name="EdGraphPin_17192"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="RInterpTo")
+         Pins(0)=EdGraphPin'EdGraphPin_17192'
+         Pins(1)=EdGraphPin'EdGraphPin_17193'
+         Pins(2)=EdGraphPin'EdGraphPin_17194'
+         Pins(3)=EdGraphPin'EdGraphPin_17195'
+         Pins(4)=EdGraphPin'EdGraphPin_17196'
+         Pins(5)=EdGraphPin'EdGraphPin_17197'
+         NodePosX=3040
+         NodePosY=480
+         NodeGuid=ECA9B505451D6E906EAD2DAB0238459E
+      End Object
+      Begin Object Name="K2Node_CallFunction_227800"
+         Begin Object Name="EdGraphPin_17178"
+            PinName="NewTransform_Scale"
+            PinFriendlyName="New Transform Scale"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="1,1,1"
+            AutogeneratedDefaultValue="1,1,1"
+            ParentPin=EdGraphPin'EdGraphPin_17166'
+         End Object
+         Begin Object Name="EdGraphPin_17177"
+            PinName="NewTransform_Rotation"
+            PinFriendlyName="New Transform Rotation"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Rotator')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260666.EdGraphPin_17197"'
+            ParentPin=EdGraphPin'EdGraphPin_17166'
+         End Object
+         Begin Object Name="EdGraphPin_17176"
+            PinName="NewTransform_Location"
+            PinFriendlyName="New Transform Location"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218973.EdGraphPin_17132"'
+            ParentPin=EdGraphPin'EdGraphPin_17166'
+         End Object
+         Begin Object Name="EdGraphPin_17167"
+            PinName="bSweep"
+            PinToolTip="Sweep\nBoolean"
+            PinType=(PinCategory="bool")
+            DefaultValue="false"
+            AutogeneratedDefaultValue="false"
+         End Object
+         Begin Object Name="EdGraphPin_17166"
+            PinName="NewTransform"
+            PinToolTip="New Transform\nTransform  (by ref)"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Transform',bIsReference=True,bIsConst=True)
+            SubPins(0)=EdGraphPin'EdGraphPin_17176'
+            SubPins(1)=EdGraphPin'EdGraphPin_17177'
+            SubPins(2)=EdGraphPin'EdGraphPin_17178'
+            bHidden=True
+            bDefaultValueIsIgnored=True
+         End Object
+         Begin Object Name="EdGraphPin_17165"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nScene Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SceneComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17364"'
+         End Object
+         Begin Object Name="EdGraphPin_17164"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_17163"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17363"'
+         End Object
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SceneComponent',MemberName="SetWorldTransform")
+         Pins(0)=EdGraphPin'EdGraphPin_17163'
+         Pins(1)=EdGraphPin'EdGraphPin_17164'
+         Pins(2)=EdGraphPin'EdGraphPin_17165'
+         Pins(3)=EdGraphPin'EdGraphPin_17166'
+         Pins(4)=EdGraphPin'EdGraphPin_17176'
+         Pins(5)=EdGraphPin'EdGraphPin_17177'
+         Pins(6)=EdGraphPin'EdGraphPin_17178'
+         Pins(7)=EdGraphPin'EdGraphPin_17167'
+         NodePosX=3328
+         NodePosY=192
+         ErrorType=1
+         ErrorMsg="Error Default value \'\' for  NewTransform  is invalid: \'Literal values are not allowed for pass-by-reference parameters.\'"
+         NodeGuid=100E23EA45648AE4D292CD83F25A858A
+      End Object
+      Begin Object Name="K2Node_CommutativeAssociativeBinaryOperator_4671"
+         Begin Object Name="EdGraphPin_17154"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nInteger"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_219021.EdGraphPin_17140"'
+         End Object
+         Begin Object Name="EdGraphPin_17153"
+            PinName="B"
+            PinToolTip="B\nInteger"
+            PinType=(PinCategory="int")
+            DefaultValue="1"
+            AutogeneratedDefaultValue="0"
+         End Object
+         Begin Object Name="EdGraphPin_17152"
+            PinName="A"
+            PinToolTip="A\nInteger"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17365"'
+         End Object
+         Begin Object Name="EdGraphPin_17151"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="Add_IntInt")
+         Pins(0)=EdGraphPin'EdGraphPin_17151'
+         Pins(1)=EdGraphPin'EdGraphPin_17152'
+         Pins(2)=EdGraphPin'EdGraphPin_17153'
+         Pins(3)=EdGraphPin'EdGraphPin_17154'
+         NodePosX=2592
+         NodePosY=336
+         NodeGuid=2B154AAA41A0D9DD1B1958A2E18F2744
+      End Object
+      Begin Object Name="K2Node_CallFunction_219021"
+         Begin Object Name="EdGraphPin_17142"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218973.EdGraphPin_17131"'
+         End Object
+         Begin Object Name="EdGraphPin_17141"
+            PinName="B"
+            PinToolTip="B\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218607.EdGraphPin_17121"'
+         End Object
+         Begin Object Name="EdGraphPin_17140"
+            PinName="A"
+            PinToolTip="A\nInteger"
+            PinType=(PinCategory="int")
+            DefaultValue="0"
+            AutogeneratedDefaultValue="0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_4671.EdGraphPin_17154"'
+         End Object
+         Begin Object Name="EdGraphPin_17139"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="Multiply_IntFloat")
+         Pins(0)=EdGraphPin'EdGraphPin_17139'
+         Pins(1)=EdGraphPin'EdGraphPin_17140'
+         Pins(2)=EdGraphPin'EdGraphPin_17141'
+         Pins(3)=EdGraphPin'EdGraphPin_17142'
+         NodePosX=2768
+         NodePosY=384
+         NodeGuid=09FF838646651F827112F5BC28788E16
+      End Object
+      Begin Object Name="K2Node_CallFunction_218973"
+         Begin Object Name="EdGraphPin_17132"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_376553.EdGraphPin_17232"'
+            LinkedTo(1)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_227800.EdGraphPin_17176"'
+         End Object
+         Begin Object Name="EdGraphPin_17131"
+            PinName="Distance"
+            PinToolTip="Distance\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_219021.EdGraphPin_17142"'
+         End Object
+         Begin Object Name="EdGraphPin_17130"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nSpline Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_4240.EdGraphPin_17046"'
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SplineComponent',MemberName="GetWorldLocationAtDistanceAlongSpline")
+         Pins(0)=EdGraphPin'EdGraphPin_17130'
+         Pins(1)=EdGraphPin'EdGraphPin_17131'
+         Pins(2)=EdGraphPin'EdGraphPin_17132'
+         NodePosX=2880
+         NodePosY=288
+         NodeGuid=EA84433D4406A3FCB53426AD77D0306F
+      End Object
+      Begin Object Name="K2Node_CallFunction_218607"
+         Begin Object Name="EdGraphPin_17121"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_219021.EdGraphPin_17141"'
+         End Object
+         Begin Object Name="EdGraphPin_17120"
+            PinName="B"
+            PinToolTip="B\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="5"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17119"
+            PinName="A"
+            PinToolTip="A\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_215816.EdGraphPin_17113"'
+         End Object
+         Begin Object Name="EdGraphPin_17118"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="Divide_FloatFloat")
+         Pins(0)=EdGraphPin'EdGraphPin_17118'
+         Pins(1)=EdGraphPin'EdGraphPin_17119'
+         Pins(2)=EdGraphPin'EdGraphPin_17120'
+         Pins(3)=EdGraphPin'EdGraphPin_17121'
+         NodePosX=2592
+         NodePosY=416
+         NodeGuid=B568BD70456752FD3D8E9DBBE76B44B8
+      End Object
+      Begin Object Name="K2Node_CallFunction_215816"
+         Begin Object Name="EdGraphPin_17113"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nFloat"
+            Direction=EGPD_Output
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218607.EdGraphPin_17119"'
+         End Object
+         Begin Object Name="EdGraphPin_17112"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nSpline Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_4240.EdGraphPin_17046"'
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SplineComponent',MemberName="GetSplineLength")
+         Pins(0)=EdGraphPin'EdGraphPin_17112'
+         Pins(1)=EdGraphPin'EdGraphPin_17113'
+         NodePosX=2368
+         NodePosY=384
+         NodeGuid=A58050794CD28C6E1B0F83849222CAB1
+      End Object
+      Begin Object Name="K2Node_VariableGet_4240"
+         Begin Object Name="EdGraphPin_17047"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17046"
+            PinName="Spline"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_215816.EdGraphPin_17112"'
+            LinkedTo(1)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_218973.EdGraphPin_17130"'
+         End Object
+         VariableReference=(MemberName="Spline",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17046'
+         Pins(1)=EdGraphPin'EdGraphPin_17047'
+         NodePosX=2224
+         NodePosY=416
+         NodeGuid=1EB6247246B6CAD536BF0D8E40CB1A59
+      End Object
+      Begin Object Name="K2Node_MacroInstance_2810"
+         Begin Object Name="EdGraphPin_17366"
+            PinName="Completed"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_17365"
+            PinName="Array Index"
+            Direction=EGPD_Output
+            PinType=(PinCategory="int")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_4671.EdGraphPin_17152"'
+         End Object
+         Begin Object Name="EdGraphPin_17364"
+            PinName="Array Element"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_227800.EdGraphPin_17165"'
+            LinkedTo(1)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_260873.EdGraphPin_17091"'
+         End Object
+         Begin Object Name="EdGraphPin_17363"
+            PinName="LoopBody"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_227800.EdGraphPin_17163"'
+         End Object
+         Begin Object Name="EdGraphPin_17362"
+            PinName="Array"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_4235.EdGraphPin_17085"'
+         End Object
+         Begin Object Name="EdGraphPin_17361"
+            PinName="Exec"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_161322.EdGraphPin_17059"'
+         End Object
+         MacroGraphReference=(MacroGraph=EdGraph'/Engine/EditorBlueprintResources/StandardMacros.StandardMacros:ForEachLoop',GraphBlueprint=Blueprint'/Engine/EditorBlueprintResources/StandardMacros.StandardMacros',GraphGuid=99DBFD5540A796041F72A5A9DA655026)
+         ResolvedWildcardType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17361'
+         Pins(1)=EdGraphPin'EdGraphPin_17362'
+         Pins(2)=EdGraphPin'EdGraphPin_17363'
+         Pins(3)=EdGraphPin'EdGraphPin_17364'
+         Pins(4)=EdGraphPin'EdGraphPin_17365'
+         Pins(5)=EdGraphPin'EdGraphPin_17366'
+         NodePosX=2384
+         NodePosY=208
+         ErrorType=1
+         ErrorMsg="Error Unexpected node type K2Node_MacroInstance encountered at  ForEachLoop "
+         NodeGuid=7F3A29BB4563DB2F6076D7ACEFCF66CC
+      End Object
+      Begin Object Name="K2Node_VariableGet_4235"
+         Begin Object Name="EdGraphPin_17086"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17085"
+            PinName="Lanterns"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17362"'
+         End Object
+         VariableReference=(MemberName="Lanterns",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17085'
+         Pins(1)=EdGraphPin'EdGraphPin_17086'
+         NodePosX=2240
+         NodePosY=272
+         NodeGuid=03B924E3478EC431A3D3C8BF76061C7B
+      End Object
+      Begin Object Name="K2Node_CallFunction_171792"
+         Begin Object Name="EdGraphPin_17076"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_5993.EdGraphPin_17284"'
+         End Object
+         Begin Object Name="EdGraphPin_17075"
+            PinName="B"
+            PinToolTip="B\nFloat"
+            PinType=(PinCategory="float")
+            DefaultValue="30"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_17074"
+            PinName="A"
+            PinToolTip="A\nVector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_Timeline_254.EdGraphPin_16899"'
+         End Object
+         Begin Object Name="EdGraphPin_17073"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nKismet Math Library Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.KismetMathLibrary')
+            DefaultObject=Default__KismetMathLibrary
+            bHidden=True
+         End Object
+         bIsPureFunc=True
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.KismetMathLibrary',MemberName="Multiply_VectorFloat")
+         Pins(0)=EdGraphPin'EdGraphPin_17073'
+         Pins(1)=EdGraphPin'EdGraphPin_17074'
+         Pins(2)=EdGraphPin'EdGraphPin_17075'
+         Pins(3)=EdGraphPin'EdGraphPin_17076'
+         NodePosX=1472
+         NodePosY=336
+         NodeComment="Movement multiplier"
+         NodeGuid=7CF1B48E4706E93430B26B9365CF7401
+      End Object
+      Begin Object Name="K2Node_CallFunction_161322"
+         Begin Object Name="EdGraphPin_17062"
+            PinName="InLocation"
+            PinToolTip="In Location\nVector  (by ref)"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector',bIsReference=True,bIsConst=True)
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_5993.EdGraphPin_17285"'
+            bDefaultValueIsIgnored=True
+         End Object
+         Begin Object Name="EdGraphPin_17061"
+            PinName="PointIndex"
+            PinToolTip="Point Index\nInteger"
+            PinType=(PinCategory="int")
+            DefaultValue="1"
+            AutogeneratedDefaultValue="0"
+         End Object
+         Begin Object Name="EdGraphPin_17060"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nSpline Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_3898.EdGraphPin_17052"'
+         End Object
+         Begin Object Name="EdGraphPin_17059"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MacroInstance_2810.EdGraphPin_17361"'
+         End Object
+         Begin Object Name="EdGraphPin_17058"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_Timeline_254.EdGraphPin_16894"'
+         End Object
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SplineComponent',MemberName="SetWorldLocationAtSplinePoint")
+         Pins(0)=EdGraphPin'EdGraphPin_17058'
+         Pins(1)=EdGraphPin'EdGraphPin_17059'
+         Pins(2)=EdGraphPin'EdGraphPin_17060'
+         Pins(3)=EdGraphPin'EdGraphPin_17061'
+         Pins(4)=EdGraphPin'EdGraphPin_17062'
+         NodePosX=1792
+         NodePosY=192
+         NodeGuid=B42F345245DD522B9E63AEB6557D9D48
+      End Object
+      Begin Object Name="K2Node_VariableGet_3898"
+         Begin Object Name="EdGraphPin_17053"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17052"
+            PinName="Spline"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_161322.EdGraphPin_17060"'
+         End Object
+         VariableReference=(MemberName="Spline",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17052'
+         Pins(1)=EdGraphPin'EdGraphPin_17053'
+         NodePosX=1648
+         NodePosY=256
+         NodeGuid=A3D4473345D3176241EDF8A3C4D36E3A
+      End Object
+      Begin Object Name="K2Node_Timeline_254"
+         Begin Object Name="EdGraphPin_16899"
+            PinName="Sway animation"
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_171792.EdGraphPin_17074"'
+         End Object
+         Begin Object Name="EdGraphPin_16898"
+            PinName="Direction"
+            Direction=EGPD_Output
+            PinType=(PinCategory="byte",PinSubCategoryObject=Enum'/Script/Engine.TimelineComponent:ETimelineDirection')
+         End Object
+         Begin Object Name="EdGraphPin_16897"
+            PinName="NewTime"
+            PinType=(PinCategory="float")
+            DefaultValue="0.0"
+            AutogeneratedDefaultValue="0.0"
+         End Object
+         Begin Object Name="EdGraphPin_16896"
+            PinName="SetNewTime"
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16895"
+            PinName="Finished"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16894"
+            PinName="Update"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_161322.EdGraphPin_17058"'
+         End Object
+         Begin Object Name="EdGraphPin_16893"
+            PinName="ReverseFromEnd"
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16892"
+            PinName="Reverse"
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16891"
+            PinName="Stop"
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16890"
+            PinName="PlayFromStart"
+            PinType=(PinCategory="exec")
+         End Object
+         Begin Object Name="EdGraphPin_16889"
+            PinName="Play"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_150500.EdGraphPin_17005"'
+         End Object
+         TimelineName="Sway"
+         Pins(0)=EdGraphPin'EdGraphPin_16889'
+         Pins(1)=EdGraphPin'EdGraphPin_16890'
+         Pins(2)=EdGraphPin'EdGraphPin_16891'
+         Pins(3)=EdGraphPin'EdGraphPin_16892'
+         Pins(4)=EdGraphPin'EdGraphPin_16893'
+         Pins(5)=EdGraphPin'EdGraphPin_16894'
+         Pins(6)=EdGraphPin'EdGraphPin_16895'
+         Pins(7)=EdGraphPin'EdGraphPin_16896'
+         Pins(8)=EdGraphPin'EdGraphPin_16897'
+         Pins(9)=EdGraphPin'EdGraphPin_16898'
+         Pins(10)=EdGraphPin'EdGraphPin_16899'
+         NodePosX=1184
+         NodePosY=208
+         bCanRenameNode=True
+         NodeGuid=79DF8FB44A074904154F9A991A129294
+      End Object
+      Begin Object Name="K2Node_CallFunction_161817"
+         Begin Object Name="EdGraphPin_17041"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nVector "
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            DefaultValue="0, 0, 0"
+            AutogeneratedDefaultValue="0, 0, 0"
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MakeArray_129.EdGraphPin_17311"'
+         End Object
+         Begin Object Name="EdGraphPin_17040"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nActor Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.Actor')
+         End Object
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberName="K2_GetActorLocation",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17040'
+         Pins(1)=EdGraphPin'EdGraphPin_17041'
+         NodePosX=160
+         NodePosY=416
+         NodeGuid=4C50F55E4E1730EF248B6F8DBFEEC741
+      End Object
+      Begin Object Name="K2Node_MakeArray_129"
+         Begin Object Name="EdGraphPin_17312"
+            PinName="[2]"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_485128.EdGraphPin_17277"'
+         End Object
+         Begin Object Name="EdGraphPin_17311"
+            PinName="[1]"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_161817.EdGraphPin_17041"'
+         End Object
+         Begin Object Name="EdGraphPin_17310"
+            PinName="[0]"
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_485129.EdGraphPin_17226"'
+         End Object
+         Begin Object Name="EdGraphPin_17309"
+            PinName="Array"
+            Direction=EGPD_Output
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector',bIsArray=True,bIsReference=True,bIsConst=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_150500.EdGraphPin_17007"'
+         End Object
+         NumInputs=3
+         Pins(0)=EdGraphPin'EdGraphPin_17309'
+         Pins(1)=EdGraphPin'EdGraphPin_17310'
+         Pins(2)=EdGraphPin'EdGraphPin_17311'
+         Pins(3)=EdGraphPin'EdGraphPin_17312'
+         NodePosX=464
+         NodePosY=400
+         NodeGuid=01F05DE3457C96CCC2F2AAB4C304D80A
+      End Object
+      Begin Object Name="K2Node_CallFunction_150500"
+         Begin Object Name="EdGraphPin_17007"
+            PinName="Points"
+            PinToolTip="Points\nArray of Vector "
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Vector',bIsArray=True,bIsReference=True,bIsConst=True)
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_MakeArray_129.EdGraphPin_17309"'
+            bDefaultValueIsIgnored=True
+         End Object
+         Begin Object Name="EdGraphPin_17006"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nSpline Component Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableGet_3837.EdGraphPin_16998"'
+         End Object
+         Begin Object Name="EdGraphPin_17005"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_Timeline_254.EdGraphPin_16889"'
+         End Object
+         Begin Object Name="EdGraphPin_17004"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableSet_1559.EdGraphPin_16987"'
+         End Object
+         FunctionReference=(MemberParentClass=Class'/Script/Engine.SplineComponent',MemberName="SetSplineWorldPoints")
+         Pins(0)=EdGraphPin'EdGraphPin_17004'
+         Pins(1)=EdGraphPin'EdGraphPin_17005'
+         Pins(2)=EdGraphPin'EdGraphPin_17006'
+         Pins(3)=EdGraphPin'EdGraphPin_17007'
+         NodePosX=784
+         NodePosY=208
+         NodeGuid=AE68915146A09B51881B1B8AA291E52B
+      End Object
+      Begin Object Name="K2Node_VariableGet_3837"
+         Begin Object Name="EdGraphPin_16999"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16998"
+            PinName="Spline"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_150500.EdGraphPin_17006"'
+         End Object
+         VariableReference=(MemberName="Spline",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16998'
+         Pins(1)=EdGraphPin'EdGraphPin_16999'
+         NodePosX=624
+         NodePosY=272
+         NodeGuid=D8B765F843450D014E8FD8B9A100892A
+      End Object
+      Begin Object Name="K2Node_VariableSet_1559"
+         Begin Object Name="EdGraphPin_16989"
+            PinName="self"
+            PinType=(PinCategory="object",PinSubCategory="self")
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_16988"
+            PinName="Spline"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_AddComponent_4956.EdGraphPin_17023"'
+         End Object
+         Begin Object Name="EdGraphPin_16987"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_CallFunction_150500.EdGraphPin_17004"'
+         End Object
+         Begin Object Name="EdGraphPin_16986"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_AddComponent_4956.EdGraphPin_17017"'
+         End Object
+         VariableReference=(MemberName="Spline",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_16986'
+         Pins(1)=EdGraphPin'EdGraphPin_16987'
+         Pins(2)=EdGraphPin'EdGraphPin_16988'
+         Pins(3)=EdGraphPin'EdGraphPin_16989'
+         NodePosX=496
+         NodePosY=192
+         NodeGuid=9893E05847A199F0747F4797A0A85DA5
+      End Object
+      Begin Object Name="K2Node_AddComponent_4956"
+         Begin Object Name="EdGraphPin_17023"
+            PinName="ReturnValue"
+            PinToolTip="Return Value\nActor Component Reference"
+            Direction=EGPD_Output
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent')
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableSet_1559.EdGraphPin_16988"'
+         End Object
+         Begin Object Name="EdGraphPin_17022"
+            PinName="ComponentTemplateContext"
+            PinToolTip="Component Template Context\nObject Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/CoreUObject.Object',bIsConst=True)
+            bHidden=True
+         End Object
+         Begin Object Name="EdGraphPin_17021"
+            PinName="RelativeTransform"
+            PinToolTip="Relative Transform\nTransform \n\nDefines where to position the component (relative to its parent). If the component is left unattached, then the transform is relative to the world."
+            PinType=(PinCategory="struct",PinSubCategoryObject=ScriptStruct'/Script/CoreUObject.Object:Transform',bIsConst=True)
+            bDefaultValueIsIgnored=True
+         End Object
+         Begin Object Name="EdGraphPin_17020"
+            PinName="bManualAttachment"
+            PinToolTip="Manual Attachment\nBoolean\n\nDefines whether the component should attach to the root automatically, or be left unattached for the user to manually attach later."
+            PinType=(PinCategory="bool")
+            DefaultValue="false"
+            AutogeneratedDefaultValue="false"
+         End Object
+         Begin Object Name="EdGraphPin_17019"
+            PinName="TemplateName"
+            PinToolTip="Template Name\nName"
+            PinType=(PinCategory="name")
+            DefaultValue="SplineComponent_0"
+            AutogeneratedDefaultValue="None"
+            bHidden=True
+            bNotConnectable=True
+            bDefaultValueIsReadOnly=True
+         End Object
+         Begin Object Name="EdGraphPin_17018"
+            PinName="self"
+            PinFriendlyName="Target"
+            PinToolTip="Target\nActor Reference"
+            PinType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.Actor')
+         End Object
+         Begin Object Name="EdGraphPin_17017"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_VariableSet_1559.EdGraphPin_16986"'
+         End Object
+         Begin Object Name="EdGraphPin_17016"
+            PinName="execute"
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_Event_3369.EdGraphPin_16884"'
+         End Object
+         FunctionReference=(MemberName="AddComponent",bSelfContext=True)
+         Pins(0)=EdGraphPin'EdGraphPin_17016'
+         Pins(1)=EdGraphPin'EdGraphPin_17017'
+         Pins(2)=EdGraphPin'EdGraphPin_17018'
+         Pins(3)=EdGraphPin'EdGraphPin_17019'
+         Pins(4)=EdGraphPin'EdGraphPin_17020'
+         Pins(5)=EdGraphPin'EdGraphPin_17021'
+         Pins(6)=EdGraphPin'EdGraphPin_17022'
+         Pins(7)=EdGraphPin'EdGraphPin_17023'
+         NodePosX=160
+         NodePosY=160
+         NodeGuid=6D8C11274C37667F0B2DB089B3EFABAE
+      End Object
+      Begin Object Name="K2Node_Event_3369"
+         Begin Object Name="EdGraphPin_16884"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+            LinkedTo(0)=EdGraphPin'"BP_Spline_Moving:EventGraph.K2Node_AddComponent_4956.EdGraphPin_17016"'
+         End Object
+         Begin Object Name="EdGraphPin_16883"
+            PinName="OutputDelegate"
+            Direction=EGPD_Output
+            PinType=(PinCategory="delegate",PinSubCategoryObject=Function'/Script/Engine.Actor:ReceiveBeginPlay')
+         End Object
+         EventSignatureName="ReceiveBeginPlay"
+         EventSignatureClass=Class'/Script/Engine.Actor'
+         bOverrideFunction=True
+         Pins(0)=EdGraphPin'EdGraphPin_16883'
+         Pins(1)=EdGraphPin'EdGraphPin_16884'
+         NodePosX=-352
+         NodePosY=160
+         NodeGuid=4672CE5F4F8126E70B0722B4AA182CAD
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_Event'K2Node_Event_3369'
+      Nodes(1)=K2Node_AddComponent'K2Node_AddComponent_4956'
+      Nodes(2)=K2Node_VariableSet'K2Node_VariableSet_1559'
+      Nodes(3)=K2Node_VariableGet'K2Node_VariableGet_3837'
+      Nodes(4)=K2Node_CallFunction'K2Node_CallFunction_150500'
+      Nodes(5)=K2Node_MakeArray'K2Node_MakeArray_129'
+      Nodes(6)=K2Node_CallFunction'K2Node_CallFunction_161817'
+      Nodes(7)=K2Node_Timeline'K2Node_Timeline_254'
+      Nodes(8)=K2Node_VariableGet'K2Node_VariableGet_3898'
+      Nodes(9)=K2Node_CallFunction'K2Node_CallFunction_161322'
+      Nodes(10)=K2Node_CallFunction'K2Node_CallFunction_171792'
+      Nodes(11)=K2Node_VariableGet'K2Node_VariableGet_4235'
+      Nodes(12)=K2Node_MacroInstance'K2Node_MacroInstance_2810'
+      Nodes(13)=K2Node_VariableGet'K2Node_VariableGet_4240'
+      Nodes(14)=K2Node_CallFunction'K2Node_CallFunction_215816'
+      Nodes(15)=K2Node_CallFunction'K2Node_CallFunction_218607'
+      Nodes(16)=K2Node_CallFunction'K2Node_CallFunction_218973'
+      Nodes(17)=K2Node_CallFunction'K2Node_CallFunction_219021'
+      Nodes(18)=K2Node_CommutativeAssociativeBinaryOperator'K2Node_CommutativeAssociativeBinaryOperator_4671'
+      Nodes(19)=K2Node_CallFunction'K2Node_CallFunction_227800'
+      Nodes(20)=K2Node_CallFunction'K2Node_CallFunction_260666'
+      Nodes(21)=K2Node_CallFunction'K2Node_CallFunction_260746'
+      Nodes(22)=K2Node_CallFunction'K2Node_CallFunction_260873'
+      Nodes(23)=K2Node_CallFunction'K2Node_CallFunction_272174'
+      Nodes(24)=K2Node_CallFunction'K2Node_CallFunction_376553'
+      Nodes(25)=K2Node_CallFunction'K2Node_CallFunction_376615'
+      Nodes(26)=K2Node_CallFunction'K2Node_CallFunction_386522'
+      Nodes(27)=EdGraphNode_Comment'EdGraphNode_Comment_1618'
+      Nodes(28)=EdGraphNode_Comment'EdGraphNode_Comment_1628'
+      Nodes(29)=EdGraphNode_Comment'EdGraphNode_Comment_1632'
+      Nodes(30)=K2Node_VariableGet'K2Node_VariableGet_6569'
+      Nodes(31)=K2Node_CallFunction'K2Node_CallFunction_485129'
+      Nodes(32)=K2Node_VariableGet'K2Node_VariableGet_6515'
+      Nodes(33)=K2Node_CallFunction'K2Node_CallFunction_485128'
+      Nodes(34)=K2Node_CallFunction'K2Node_CallFunction_5869'
+      Nodes(35)=K2Node_CallFunction'K2Node_CallFunction_5993'
+      bAllowDeletion=False
+      GraphGuid=C043D845440A967F97CB24A3C2420924
+   End Object
+   ParentClass=Class'/Script/Engine.Actor'
+   BlueprintDescription="Example of a Blueprint that creates and adds points to a spline in the event graph, then animates it"
+   SearchGuid=B88ADCEA48698F40F26544A76E68957F
+   SimpleConstructionScript=SimpleConstructionScript'SimpleConstructionScript_1'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   FunctionGraphs(0)=EdGraph'UserConstructionScript'
+   ComponentTemplates(0)=SplineComponent'SplineComponent_0'
+   Timelines(0)=TimelineTemplate'Sway_Template'
+   NewVariables(0)=(VarName="Spline",VarGuid=052CAD824C0807507B3875A2E37F0307,VarType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.SplineComponent'),FriendlyName="Spline",Category="Default",PropertyFlags=65541)
+   NewVariables(1)=(VarName="Lanterns",VarGuid=C9DA82B840CDB5524D7745AC550F66B1,VarType=(PinCategory="object",PinSubCategoryObject=Class'/Script/Engine.StaticMeshComponent',bIsArray=True),FriendlyName="Lanterns",Category="Default",PropertyFlags=65541)
+   CategorySorting(0)="Default"
+   CategorySorting(1)="BP Spline Moving"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'UserConstructionScript',SavedViewOffset=(X=-239.000000,Y=-303.000000),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObject=TimelineTemplate'Sway_Template')
+   LastEditedDocuments(2)=(EditedObject=EdGraph'EventGraph',SavedViewOffset=(X=-854.751343,Y=-439.611206),SavedZoomAmount=0.375000)
+   ThumbnailInfo=SceneThumbnailInfo'SceneThumbnailInfo_0'
+   GeneratedClass=BlueprintGeneratedClass'BP_Spline_Moving_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=A0E2007240FDF712421B68866FFAC082
+End Object
